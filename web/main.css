@@ -9,6 +9,7 @@
 --air-force-blue: #6C91A7ff;
 */
 body {
+	direction: rtl;
 	background-color: #C9BDE0;
 	font-family: 'assistant';
 }
