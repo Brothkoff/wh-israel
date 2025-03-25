@@ -13,22 +13,20 @@
 	width: 100%;
 }
 .main-nav {
-    clear: both;
-    background-color: #907399;
+	text-shadow: none;
+	text-decoration: none;
+	font-size: 14pt;
+	display: flex;
+	flex-wrap: wrap;
+	color: black;
+	clear: both;
+	background-color: #907399;
     background-image: -webkit-gradient(linear,left top,left bottom,from(#907399),to(#B593C4));
 	background-image: -webkit-linear-gradient(top,#907399,#B593C4);
     background-image: -moz-linear-gradient(top,#907399,#B593C4);
     background-image: -ms-linear-gradient(top,#907399,#B593C4);
     background-image: -o-linear-gradient(top,#907399,#B593C4);
     background-image: linear-gradient(to top,#907399,#B593C4);
-}
-.main-nav {
-    text-shadow: none;
-	text-decoration: none;
-	font-size: 14pt;
-	display: flex;
-	flex-wrap: wrap;
-	color: black;
 }
 
 .header-logo-left .main-nav ul li ul li {
