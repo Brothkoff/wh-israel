@@ -69,3 +69,8 @@ ul {
 #nav-program {
 	display: none;
 }
+@media (max-width:"1895") {
+	body {
+		padding: 0.5rem;
+	}
+}
