@@ -8,7 +8,13 @@
 --carolina-blue: #83B5D2ff;
 --air-force-blue: #6C91A7ff;
 */
-
+body {
+	background-color: #C9BDE0;
+	font-family: 'assistant';
+}
+strong {
+	color: #041A27;
+}
 #logo img {
 	width: 100%;
 }
@@ -60,7 +66,6 @@ ul {
 	text-decoration: none;
 	color: black;
 }
-
 #nav-program {
 	display: none;
 }
