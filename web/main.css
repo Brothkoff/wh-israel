@@ -60,3 +60,7 @@ ul {
 	text-decoration: none;
 	color: black;
 }
+
+#nav-program {
+	display: none;
+}
