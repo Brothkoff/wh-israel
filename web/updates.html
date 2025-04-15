@@ -26,23 +26,23 @@
 	</div>
 	<div id="signup-mailing-list" class="main-content">
 		<h1>להרשמה לרשימת תפוצה במייל:</h1>
-		<form id="mailing-list">
-			<div class="row">
-				<label>שם</label>
-				<input type="text">
-			</div>
-			<div class="row">
-				<label>מייל</label>
-				<input type="email">
-			</div>
-			<div class="row">
-				<input type="submit" id="submit" value="שלח">
-			</div>
+		<form id="mailing-list" action="forms/general-mailing-list.csv" method="post">
+			<p>
+				<label for="name">שם:</label>
+				<input type="text" id="name">
+			</p>
+			<p>
+				<label for="email">מייל:</label>
+				<input type="email" id="email">
+			</p>
+			<p class="row">
+				<button type="submit" id="submit">שלח</button>
+			</p>
 		</form>
 	</div>
 	<div class="main-content">
 		<h1>לקבלת עדכונים בוואטסאפ:</h1>
-		<button href="">לערוץ הוואטסאפ</button>
+		<button href="https://whatsapp.com/channel/0029Vb6O7hqLSmbZRJZvsz3y">לערוץ הוואטסאפ</button>
 	</div>
 	<footer>
 		<div class="social-icons">

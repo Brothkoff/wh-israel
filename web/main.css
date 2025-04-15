@@ -105,7 +105,7 @@ form {
 }
 label {
 	display: inline-block;
-	min-width: 90px;
+	min-width: 50px;
 	text-align: right;
 }
 input,
@@ -133,5 +133,16 @@ button {
 @media (min-width: 768px) {
 	body {
 		padding: 0.5rem;
+	}
+}
+@media (max-width: 406px){
+	input {
+		width: 10em;
+	}
+}
+
+@media ( min-width : 254px ) and (max-width : 275px ){
+	input {
+		width: 6em;
 	}
 }
