@@ -123,6 +123,13 @@ textarea:focus {
 	/* To give a little highlight on active elements */
 	outline-color: #00001D;
 }
+p + p {
+	margin: 10px;
+}
+button {
+	width: auto;
+	font: "assistant"
+}
 @media (min-width: 768px) {
 	body {
 		padding: 0.5rem;
