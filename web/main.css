@@ -13,6 +13,9 @@ body {
 	background-color: #C9BDE0;
 	font-family: 'assistant';
 }
+h1 {
+	color: #00001D
+}
 strong {
 	color: #041A27;
 }
@@ -92,6 +95,33 @@ footer {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+}
+form {
+	display: inline-block;
+	/* Form outline */
+	padding: 1em;
+	border: 2px solid #00001D;
+	border-radius: 1em;
+}
+label {
+	display: inline-block;
+	min-width: 90px;
+	text-align: right;
+}
+input,
+textarea {
+	/* Uniform text field size */
+	width: 20em;
+	box-sizing: border-box;
+	/* Match form field borders */
+	border: 1px solid black;
+}
+input:focus,
+textarea:focus {
+	/* Set the outline width and style */
+	outline-style: solid;
+	/* To give a little highlight on active elements */
+	outline-color: #00001D;
 }
 @media (min-width: 768px) {
 	body {
