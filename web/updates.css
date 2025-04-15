@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main-content {
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.row {
+	padding: 1%;
+}
+
+label {
+	padding-left: 1%;
+}
+
+
+
