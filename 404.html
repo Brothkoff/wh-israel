@@ -1,9 +1,19 @@
 <!doctype html>
 <html>
 <head>
+		<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-K2PD92FJV5"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-K2PD92FJV5');
+	</script>
 <meta charset="utf-8">
 <title>404</title>
 <link href="web/images/favicon.png" rel="icon">
+	<link href="./web/main.css" rel="stylesheet" type="text/css">
 <style>
 body {
 	direction: rtl;
@@ -20,10 +30,24 @@ strong {
 </head>
 
 <body>
+	<div id="header">
+		<div id="logo">
+			<a href="./web/home"><img fetchpriority="high" src="./web/images/header.png" alt="מדלגי העולמות 2025"></a>
+		</div><!-- end of #logo -->
+		<div id="main-nav" class="main-nav">
+			<li id="nav-program" class="menu-item"><a href="./web/home">~התוכניה~</a></li>
+			<li id="nav-about" class="menu-item"><a href="./web/about">על הכנס</a></li>
+			<li id="nav-volunteer" class="menu-item"><a href="./web/volunteer">התנדבות</a></li>
+			<li id="nav-fair" class="menu-item"><a href="./web/fair">יריד הדוכנים</a></li>
+			<li id="nav-about-eng" class="menu-item"><a href="./web/about-en">About</a></li>
+			<li id="nav-contact" class="menu-item"><a href="./web/contact">צרו קשר</a></li>
+			<a id="responsive_menu_button"></a>
+		</div>	
+	</div>
 	<div class="e404">
 		<h1><strong>אופס!</strong></h1>
 		<h2>הדף שחיפשת לא קיים...</h2>
-		<h2><a href="home.html">חזרה לעמוד הבית</a></h2>
+		<h2><a href="./web/home">חזרה לעמוד הבית</a></h2>
 	</div>
 </body>
 </html>
